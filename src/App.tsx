@@ -18,6 +18,7 @@ function App() {
       <Navigation />
       <Hero />
       <Sidebar />
+      <BottomNews />
       <GlobalStyles />
     </ThemeProvider>
   )
