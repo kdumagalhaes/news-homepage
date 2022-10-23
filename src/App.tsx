@@ -17,6 +17,7 @@ function App() {
       <Logo />
       <Navigation />
       <Hero />
+      <Sidebar />
       <GlobalStyles />
     </ThemeProvider>
   )
