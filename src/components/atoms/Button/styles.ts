@@ -5,6 +5,7 @@ interface Props {
   backgroundColorHover: string
   textColor: string
   textColorHover: string
+  maxWidth?: string
 }
 
 export const Container = styled.button<Props>`
@@ -17,6 +18,7 @@ export const Container = styled.button<Props>`
   border: none;
   font-weight: 700;
   transition: all 0.3s;
+  max-width: ${(props) => props.maxWidth};
 
   &:hover {
     color: ${(props) => props.textColorHover};
