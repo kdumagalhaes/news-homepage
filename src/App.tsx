@@ -36,6 +36,7 @@ function App() {
         color="red"
         colorHover="green"
         size="1.2rem"
+        weight="700"
       />
       <Paragraph
         text="huiasdiuashdiuashdiuashdiasudhasiudhadashuiasdiuashdiuashdiuashdiasudhasiudhadashuiasdiuashdiuashdiuashdiasudhasiudhadashuiasdiuashdiuashdiuashdiasudhasiudhadashuiasdiuashdiuashdiuashdiasudhasiudhadashuiasdiuashdiuashdiuashdiasudhasiudhadas"
