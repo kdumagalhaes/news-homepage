@@ -5,7 +5,8 @@ interface InternalLinkProps {
   color: string
   colorHover: string
   anchor: string
-  size
+  size?: string
+  weight?: string
 }
 
 export function InternalLink({
@@ -13,7 +14,8 @@ export function InternalLink({
   color,
   colorHover,
   anchor,
-  size,
+  size = '1rem',
+  weight = '400',
 }: InternalLinkProps) {
   return (
     <Container
@@ -21,6 +23,7 @@ export function InternalLink({
       textColorHover={colorHover}
       href={anchor}
       fontSize={size}
+      fontWeight={weight}
     >
       {text}
     </Container>
