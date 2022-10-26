@@ -1,4 +1,5 @@
 import { InternalLink } from '../../atoms/Link/InternalLink'
+import { Logo } from '../../atoms/Logo/Logo'
 import { Container } from './styles'
 
 // incluir prop de peso da fonte no InternalLink

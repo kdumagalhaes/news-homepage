@@ -10,12 +10,12 @@ import { Hero } from './components/molecules/Hero/Hero'
 import { Sidebar } from './components/molecules/Sidebar/Sidebar'
 import { BottomNews } from './components/molecules/BottomNews/BottomNews'
 import { Navigation } from './components/molecules/Navigation/Navigation'
+import { Header } from './components/molecules/Header/Header'
 
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Logo />
-      <Navigation />
+      <Header />
       <Hero />
       <Sidebar />
       <BottomNews />
