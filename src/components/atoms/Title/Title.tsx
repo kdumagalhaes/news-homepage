@@ -10,22 +10,31 @@ interface TitleProps {
   text: string
   color: string
   size: string
+  cssHandler?: string
 }
 
-export function Title({ heading, text, color, size }: TitleProps) {
+export function Title({ heading, text, color, size, cssHandler }: TitleProps) {
   return (
     <>
       {(() => {
         switch (heading) {
           case 'h2':
             return (
-              <LargeTitle titleColor={color} fontSize={size}>
+              <LargeTitle
+                titleColor={color}
+                fontSize={size}
+                className={cssHandler}
+              >
                 {text}
               </LargeTitle>
             )
           case 'h3':
             return (
-              <MediumTitle titleColor={color} fontSize={size}>
+              <MediumTitle
+                titleColor={color}
+                fontSize={size}
+                className={cssHandler}
+              >
                 {text}
               </MediumTitle>
             )
