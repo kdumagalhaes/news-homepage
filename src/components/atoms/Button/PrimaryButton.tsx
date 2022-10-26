@@ -6,6 +6,7 @@ interface PrimaryButtonProps {
   backgroundHover: string
   color: string
   colorHover: string
+  maxWidth?: string
 }
 
 export function PrimaryButton({
@@ -14,6 +15,7 @@ export function PrimaryButton({
   backgroundHover,
   color,
   colorHover,
+  maxWidth,
 }: PrimaryButtonProps) {
   return (
     <Container
@@ -21,6 +23,7 @@ export function PrimaryButton({
       textColorHover={colorHover}
       backgroundColor={background}
       backgroundColorHover={backgroundHover}
+      maxWidth={maxWidth}
     >
       {text}
     </Container>
