@@ -13,15 +13,17 @@ export function Sidebar() {
         heading={Headings.H2}
         text="New"
         color="hsl(35, 77%, 62%)"
-        size="2.1rem"
+        size="2.8rem"
+        cssHandler="sidebar-title"
       />
       <NewsBlock>
         <InternalLink
           anchor="#"
           text="Hydrogen vs Electric Cars"
-          size="1rem"
+          size="1.3rem"
           color="hsl(36, 100%, 99%)"
           colorHover="hsl(35, 77%, 62%)"
+          weight="800"
         />
         <Paragraph
           text="Will hydrogen-fueled cars ever catch up to EVs?"
@@ -32,9 +34,10 @@ export function Sidebar() {
         <InternalLink
           anchor="#"
           text="The Downside of AI Artistry"
-          size="1rem"
+          size="1.3rem"
           color="hsl(36, 100%, 99%)"
           colorHover="hsl(35, 77%, 62%)"
+          weight="800"
         />
         <Paragraph
           text="What are the possible adverse effects of on-demand AI image generation?"
@@ -45,9 +48,10 @@ export function Sidebar() {
         <InternalLink
           anchor="#"
           text="Is VC Funding Drying Up?"
-          size="1rem"
+          size="1.3rem"
           color="hsl(36, 100%, 99%)"
           colorHover="hsl(35, 77%, 62%)"
+          weight="800"
         />
         <Paragraph
           text="Private funding by VC firms is down 50% YOY. We take a look at what that means."
