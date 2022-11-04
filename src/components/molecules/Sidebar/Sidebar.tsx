@@ -3,9 +3,6 @@ import { Paragraph } from '../../atoms/Paragraph/Paragraph'
 import { Title, Headings } from '../../atoms/Title/Title'
 import { Container, NewsBlock } from './styles'
 
-// incluir cssHandler no Title
-// incluir prop de tamanho de fonte no Paragraph
-
 export function Sidebar() {
   return (
     <Container>
@@ -28,6 +25,7 @@ export function Sidebar() {
         <Paragraph
           text="Will hydrogen-fueled cars ever catch up to EVs?"
           color="hsl(233, 8%, 79%)"
+          cssHandler="paragraph"
         />
       </NewsBlock>
       <NewsBlock>
@@ -42,6 +40,7 @@ export function Sidebar() {
         <Paragraph
           text="What are the possible adverse effects of on-demand AI image generation?"
           color="hsl(233, 8%, 79%)"
+          cssHandler="paragraph"
         />
       </NewsBlock>
       <NewsBlock>
@@ -56,6 +55,7 @@ export function Sidebar() {
         <Paragraph
           text="Private funding by VC firms is down 50% YOY. We take a look at what that means."
           color="hsl(233, 8%, 79%)"
+          cssHandler="paragraph"
         />
       </NewsBlock>
     </Container>
