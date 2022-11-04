@@ -11,9 +11,10 @@ export function Hero() {
       <TextContent>
         <Title
           text="The Bright Future of Web 3.0?"
-          size="2.6rem"
+          size="3.6rem"
           heading={Headings.H2}
           color="hsl(240, 100%, 5%)"
+          cssHandler="hero-title"
         />
         <div className="text-and-button">
           <Paragraph

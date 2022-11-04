@@ -1,18 +1,12 @@
 import { ThemeProvider } from 'styled-components'
 import { defaultTheme } from './styles/themes/default'
 import { GlobalStyles } from './styles/global'
-import { Hero } from './components/molecules/Hero/Hero'
-import { Sidebar } from './components/molecules/Sidebar/Sidebar'
-import { BottomNews } from './components/molecules/BottomNews/BottomNews'
-import { Header } from './components/molecules/Header/Header'
+import { Default } from './components/templates/Default/Default'
 
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Header />
-      <Hero />
-      <Sidebar />
-      <BottomNews />
+      <Default />
       <GlobalStyles />
     </ThemeProvider>
   )
