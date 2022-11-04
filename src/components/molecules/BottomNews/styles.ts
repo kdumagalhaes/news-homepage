@@ -14,5 +14,10 @@ export const NewsBlock = styled.div`
 
   .wrapper {
     margin-left: 1.5rem;
+    max-height: 9.5rem;
+    max-width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 `
