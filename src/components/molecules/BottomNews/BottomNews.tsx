@@ -12,7 +12,7 @@ export function BottomNews() {
   return (
     <Container>
       <NewsBlock>
-        <img src={RetroPCImage} alt="A retro PC image" />
+        <img className="thumb" src={RetroPCImage} alt="A retro PC image" />
         <div className="wrapper">
           <Title
             text="01"
@@ -34,7 +34,11 @@ export function BottomNews() {
         </div>
       </NewsBlock>
       <NewsBlock>
-        <img src={TopLaptopsImage} alt="A black keyboard with red lights" />
+        <img
+          className="thumb"
+          src={TopLaptopsImage}
+          alt="A black keyboard with red lights"
+        />
         <div className="wrapper">
           <Title
             text="02"
@@ -56,7 +60,11 @@ export function BottomNews() {
         </div>
       </NewsBlock>
       <NewsBlock>
-        <img src={GamingGrowthImage} alt="A joystick with a hand" />
+        <img
+          className="thumb"
+          src={GamingGrowthImage}
+          alt="A joystick with a hand"
+        />
         <div className="wrapper">
           <Title
             text="03"
